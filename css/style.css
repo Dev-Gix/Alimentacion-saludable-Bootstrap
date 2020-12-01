@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;  /**Reset para REMS-62.5% = 10px de 16px**/
+   
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+i{
+    color: #b0d323;
+}
+
+h1{
+   font-size:4rem;
+   margin:2rem 0 2rem 0;
+}
+
+h2{
+    font-size:3rem;
+    margin:1rem 0 1rem 0;
+}
+
+h3{
+    font-size:2rem;
+}
+
+p{
+    font-size:1.5rem;
+    line-height:1.5;
+    
+}
+img{
+    max-width: 100%;
+}
+
+
+/**Header**/
+
+.barra{
+    text-align:center;
+    background-color:#b0d323;
+    padding:2rem;
+}
+
+.navegacion a{
+    color:white;
+    padding: 1rem;
+    font-size:2rem;
+    text-decoration:none;
+
+}
+
+.navegacion a:hover{
+    color: grey;
+    transition: .5s ease-in;
+
+}
+
+/**¿QUÉ CARACTERÍSTICAS DEBE DE TENER UNA ALIMENTACIÓN SALUDABLE?**/
+
+.tablas-clasificacion-comida td {
+    border: #b0d323 2px solid;
+    padding:2rem;
+    font-size:1.5vw;
+}
+
+.tablas-clasificacion-comida span {
+    font-weight:bold;
+    font-size:2vw;
+
+}
+
+.tablas-clasificacion-comida  {
+    margin-top: 2rem;
+}
+
+
+/**FOOTER**/
+.barra p {
+    color: white;
+    text-align: center;
+    margin:0;
+  
+}
+
+/**Contacto**/
+.contacto{
+background-image:url(/img/comida-saludable-contacto.jpg);
+padding-bottom: 22rem;
+
+}
+.formulario {
+    
+    background-color: white;
+    -webkit-box-shadow: -9px 7px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -9px 7px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -9px 7px 16px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 0px 0px 14px 14px;
+    -moz-border-radius: 0px 0px 14px 14px;
+    -webkit-border-radius: 0px 0px 14px 14px;
+    border: 0px solid #000000;
+    font-size:2rem;
+}
+
+    
+
+.btn{
+    margin:2rem;
+    font-size:1.5rem;
+   
+}
+
+
+
+
+
+
+
+
+
