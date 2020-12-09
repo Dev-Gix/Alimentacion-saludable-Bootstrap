@@ -1,8 +1,10 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;  /**Reset para REMS-62.5% = 10px de 16px**/
+    
    
 }
+
 
 *, *::before, *::after {
     box-sizing: inherit;
@@ -78,6 +80,7 @@ img{
 
 
 /**FOOTER**/
+
 .barra p {
     color: white;
     text-align: center;
@@ -112,6 +115,24 @@ padding-bottom: 22rem;
    
 }
 
+
+/**Adivinanza**/
+
+.controles-adivinanza {
+   display:inline-grid;
+}
+
+.Mostrar{
+    display:inline-block;
+   
+}
+.Ocultar{
+    display:none;
+}
+
+.Contenido-Juego{
+    padding-bottom:30rem;
+}
 
 
 
